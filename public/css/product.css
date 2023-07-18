@@ -1,0 +1,85 @@
+/* product.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the header */
+  .main-header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  .main-header__nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-header__item-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .main-header__item {
+    margin-right: 10px;
+  }
+  
+  /* Style the links in the navigation menu */
+  .main-header__item a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .main-header__item a.active {
+    font-weight: bold;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the product form */
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  

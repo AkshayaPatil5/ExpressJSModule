@@ -1,0 +1,65 @@
+/* main.css */
+
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and text color for the body */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Style the main header */
+.main-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the navigation */
+.main-header__nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-header__item-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-header__item {
+  margin-right: 10px;
+}
+
+/* Style the navigation links */
+.main-header__item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Style the active link */
+.main-header__item a.active,
+.main-header__item a.active2,
+.main-header__item a.active3 {
+  font-weight: bold;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+  
